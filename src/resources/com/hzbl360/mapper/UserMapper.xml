@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.hzbl360.mapper.UserMapper">
+
+    <resultMap id="userMap" type="com.hzbl360.model.SysUser">
+        <id property="id" column="id"/>
+        <result property="userName" column="user_name"/>
+        <result property="userPassword" column="user_password"/>
+        <result property="userEmail" column="user_email"/>
+        <result property="userInfo" column="user_info"/>
+        <result property="headImg" column="head_img" jdbcType="BLOB"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+
+    </resultMap>
+
+    <resultMap id="roleMap" type="com.hzbl360.model.SysRole">
+        <id property="id" column="rid"/>
+        <result property="roleName" column="role_name"/>
+        <result property="enabled" column="enabled"/>
+        <result property="createBy" column="create_by"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+
+    <resultMap id="userRoleMap"  extends="userMap" type="com.hzbl360.model.SysUser">
+        <id property="role.id" column="rid"/>
+        <result property="role.roleName" column="role_name" />
+        <result property="role.enabled" column="enabled"/>
+        <result property="role.createBy" column="create_by"/>
+        <result property="role.createTime" column="create_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+
+    <resultMap id="userRoleMap1" extends="userMap" type="com.hzbl360.model.SysUser">
+        <association property="role" columnPrefix="" javaType="com.hzbl360.model.SysRole">
+            <result property="id" column="rid"></result>
+            <result property="roleName" column="role_name"></result>
+            <result property="enabled" column="enabled"></result>
+            <result property="createBy" column="create_by"></result>
+            <result property="createTime" column="create_time"></result>
+        </association>
+    </resultMap>
+
+    <resultMap id="userRoleMap2" type="com.hzbl360.model.SysUser" extends="userMap">
+        <association property="role" columnPrefix="" resultMap="roleMap"/>
+    </resultMap>
+
+    <select id="selectUserAndRoleById" resultMap="userRoleMap2">
+        select u.* ,r.id as rid ,r.role_name ,r.enabled , r.create_by ,r.create_time
+        from sys_user u
+        inner join sys_user_role ur on u.id = ur.user_id
+        inner join sys_role r on ur.role_id  = r.id
+        where u.id = #{id}
+    </select>
+
+
+
+
+
+
+    <select id="selectById" resultMap="userMap">
+        select * from sys_user where id = #{id}
+    </select>
+
+    <select id="selectAll" resultType="com.hzbl360.model.SysUser">
+        select id,user_name,user_password, user_email, user_info, head_img, create_time from sys_user
+    </select>
+
+    <select id="selectRoleByUserId" resultType="com.hzbl360.model.SysRole">
+        select r.id, r.role_name, r.enabled, r.create_by ,r.create_time ,u.user_name as "sysUser.userName",u.user_email as "sysUser.userEmail"
+        from sys_user u
+        inner join sys_user_role ur on u.id = ur.user_id
+        inner join sys_role r on ur.role_id = r.id
+        where u.id = #{userId}
+    </select>
+
+    <select id="selectRolesByUserIdAndRoleEnabled" resultType="com.hzbl360.model.SysRole">
+        select r.id ,r.role_name ,r.enabled, r.create_by ,r.create_time
+        from sys_user u
+        inner join sys_user_role ur on u.id = ur.user_id
+        inner join sys_role r on ur.role_id = r.id
+        where u.id = #{userId} and r.enabled = #{enabled}
+    </select>
+
+    <select id="selectRolesByUserAndRole" resultType="com.hzbl360.model.SysRole">
+        select r.id ,r.role_name ,r.enabled, r.create_by ,r.create_time
+        from sys_user u
+        inner join sys_user_role ur on u.id = ur.user_id
+        inner join sys_role r on ur.role_id = r.id
+        WHERE u.id=#{user.id} and r.enabled = #{role.enabled}
+    </select>
+
+
+    <select id="selectByIdOrUserName" resultType="com.hzbl360.model.SysUser">
+        select id ,user_name ,user_password,user_info,head_img,create_time
+        from sys_user
+        where 1=1
+        <choose>
+            <when test="id != null">
+                and id = #{id}
+            </when>
+            <when test="userName != null and userName != ''">
+                and user_name = #{userName}
+            </when>
+            <otherwise>
+                and 1 = 2
+            </otherwise>
+        </choose>
+
+    </select>
+
+    <select id="selectByUser" resultType="com.hzbl360.model.SysUser">
+        select id,user_name , user_password, user_email from sys_user
+        <where>
+            <if test="userName != null and userName !=''">
+                and user_name like concat('%' ,#{userName},'%')
+            </if>
+            <if test="userEmail !='' and userEmail != null">
+                and user_email = #{userEmail}
+            </if>
+        </where>
+    </select>
+
+    <select id="selectByIdList" resultType="com.hzbl360.model.SysUser">
+        select * from sys_user
+        where  id in
+        <foreach collection="list" open="(" close=")" separator="," item="id" index="i">
+            #{id}
+        </foreach>
+    </select>
+
+
+
+    <insert id="insertList">
+        insert into sys_user(user_name,user_password,user_email,user_info,head_img,create_time)
+        values
+        <foreach collection="list" item="user" separator=",">
+            (
+              #{user.userName},#{user.userPassword},#{user.userEmail},#{user.userInfo},
+              #{user.headImg,jdbcType=BLOB},#{user.createTime,jdbcType=TIMESTAMP}
+            )
+        </foreach>
+    </insert>
+
+
+
+    <update id="updateByMap" >
+        update sys_user set
+        <foreach collection="map" item="val" index="key" separator=",">
+            ${key} = #{val}.
+
+        </foreach>
+        where id = #{map.id}
+
+    </update>
+
+
+
+
+
+
+
+
+    <!--userGeneratedKeys="true" keyProperty 返回自增主键 -->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into sys_user (id,user_name,user_password,user_email,user_info,head_img,create_time)
+        values (#{id} ,#{userName},#{userPassword} ,#{userEmail},#{userInfo},#{headImg ,jdbcType=BLOB},#{createTime, jdbcType=TIMESTAMP})
+    </insert>
+
+
+
+    <update id="updateById">
+        update sys_user set
+            user_name = #{userName}, user_password=#{userPassword}, user_email=#{userEmail}, user_info=#{userInfo},head_img=#{headImg,jdbcType=BLOB}, create_time=#{createTime}
+        where id = #{id}
+    </update>
+
+
+</mapper>
