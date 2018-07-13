@@ -2,6 +2,7 @@ package com.hzbl360.model;
 
 import java.util.Date;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * 用户表
@@ -17,6 +18,15 @@ public class SysUser {
     private Date createTime;
     private SysRole role;
 
+    private List<SysRole> roleList;
+
+    public List<SysRole> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<SysRole> roleList) {
+        this.roleList = roleList;
+    }
 
     @Override
     public String toString() {

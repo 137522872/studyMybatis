@@ -3,7 +3,7 @@
 <mapper namespace="com.hzbl360.mapper.RoleMapper">
 
     <resultMap id="roleMap" type="com.hzbl360.model.SysRole">
-        <id property="id" column="id"/>
+        <result property="id" column="id"/>
         <result property="roleName" column="role_name"/>
         <result property="enabled" column="enabled"/>
         <result property="createBy" column="create_by"/>
