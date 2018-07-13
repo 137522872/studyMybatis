@@ -42,4 +42,6 @@ public interface UserMapper {
     int updateByMap(@Param("map") Map<String,Object> map);
 
     List<SysUser> selectUserAndRoleById(Long id);
+
+    List<SysUser> selectUserAndRoleByIdSelect(Long id);
 }

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="741ae68a-31cb-4a77-bbd9-296e88258add" name="Default" comment="" />
+    <list default="true" id="741ae68a-31cb-4a77-bbd9-296e88258add" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/com/hzbl360/main/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/hzbl360/main/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/hzbl360/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/hzbl360/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/hzbl360/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/hzbl360/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/UserMapper.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +22,8 @@
       <file leaf-file-name="DemoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/main/DemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="212" selection-start-line="212" selection-end-line="212" />
+            <state relative-caret-position="327">
+              <caret line="219" column="25" selection-start-line="219" selection-start-column="25" selection-end-line="219" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,20 +77,11 @@
       <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+            <state relative-caret-position="599">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRoleMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/com/hzbl360/mapper/UserRoleMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -101,20 +98,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRoleMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/UserRoleMapper.java">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/com/hzbl360/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="3" />
+            <state relative-caret-position="336">
+              <caret line="52" column="88" lean-forward="true" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/com/hzbl360/mapper/UserMapper.xml">
+      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/com/hzbl360/mapper/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="115">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/RoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -151,22 +157,22 @@
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/model/SysRolePrivilege.java" />
         <option value="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/CountryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/mapper/PrivilegeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/com/hzbl360/mapper/RoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/mapper/UserRoleMapper.java" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/mapper/RolePrivilegeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/main/CountryMapperTest.java" />
         <option value="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/PrivilegeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/RoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/RolePrivilegeMapper.xml" />
         <option value="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/UserRoleMapper.xml" />
         <option value="$PROJECT_DIR$/src/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/model/SysRoleExtend.java" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/model/SysRole.java" />
-        <option value="$PROJECT_DIR$/src/main/com/hzbl360/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/model/SysUser.java" />
-        <option value="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/com/hzbl360/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/com/hzbl360/main/DemoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/hzbl360/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/resources/com/hzbl360/mapper/RoleMapper.xml" />
       </list>
     </option>
   </component>
@@ -204,7 +210,90 @@
           <expand>
             <path>
               <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hzbl360" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hzbl360" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hzbl360" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hzbl360" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hzbl360" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyMybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hzbl360" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,9 +334,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DemoTest.testSelectUserAndRoleById">
+  <component name="RunManager" selected="JUnit.DemoTest.selectUserAndRoleByIdSelect">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DemoTest.selectUserAndRoleByIdSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studyMybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hzbl360.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hzbl360.main" />
+      <option name="MAIN_CLASS_NAME" value="com.hzbl360.main.DemoTest" />
+      <option name="METHOD_NAME" value="selectUserAndRoleByIdSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="DemoTest.testSelectByIdOrUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studyMybatis" />
@@ -262,29 +374,6 @@
       <option name="PACKAGE_NAME" value="com.hzbl360.main" />
       <option name="MAIN_CLASS_NAME" value="com.hzbl360.main.DemoTest" />
       <option name="METHOD_NAME" value="testSelectByIdOrUserName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DemoTest.testSelectRolesByUserAndRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studyMybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hzbl360.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.hzbl360.main" />
-      <option name="MAIN_CLASS_NAME" value="com.hzbl360.main.DemoTest" />
-      <option name="METHOD_NAME" value="testSelectRolesByUserAndRole" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -403,19 +492,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DemoTest.testSelectRolesByUserAndRole" />
       <item itemvalue="JUnit.DemoTest.testSelectByIdOrUserName" />
       <item itemvalue="JUnit.DemoTest.testselectByUser" />
       <item itemvalue="JUnit.DemoTest.testUpdateByMap" />
       <item itemvalue="JUnit.DemoTest.testSelectUserAndRoleById" />
+      <item itemvalue="JUnit.DemoTest.selectUserAndRoleByIdSelect" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemoTest.selectUserAndRoleByIdSelect" />
         <item itemvalue="JUnit.DemoTest.testSelectUserAndRoleById" />
         <item itemvalue="JUnit.DemoTest.testUpdateByMap" />
         <item itemvalue="JUnit.DemoTest.testselectByUser" />
         <item itemvalue="JUnit.DemoTest.testSelectByIdOrUserName" />
-        <item itemvalue="JUnit.DemoTest.testSelectRolesByUserAndRole" />
       </list>
     </recent_temporary>
   </component>
@@ -433,47 +522,48 @@
       <workItem from="1531267691797" duration="8877000" />
       <workItem from="1531278169541" duration="15895000" />
       <workItem from="1531353226131" duration="19641000" />
-      <workItem from="1531439721131" duration="4167000" />
+      <workItem from="1531439721131" duration="7840000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 08m 27s.xml">
+    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 09h 41m 26s.xml">
       <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 08m 44s.xml">
+    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 09h 42m 26s.xml">
       <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 09m 30s.xml">
-      <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
+    <history-entry file="DemoTest_selectUserAndRoleByIdSelect - 2018.07.13 at 10h 14m 08s.xml">
+      <configuration name="DemoTest.selectUserAndRoleByIdSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 11m 36s.xml">
-      <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
+    <history-entry file="DemoTest_selectUserAndRoleByIdSelect - 2018.07.13 at 10h 21m 24s.xml">
+      <configuration name="DemoTest.selectUserAndRoleByIdSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 14m 07s.xml">
-      <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
+    <history-entry file="DemoTest_selectUserAndRoleByIdSelect - 2018.07.13 at 10h 23m 33s.xml">
+      <configuration name="DemoTest.selectUserAndRoleByIdSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 14m 17s.xml">
-      <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
+    <history-entry file="DemoTest_selectUserAndRoleByIdSelect - 2018.07.13 at 10h 52m 50s.xml">
+      <configuration name="DemoTest.selectUserAndRoleByIdSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 45m 42s.xml">
-      <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
+    <history-entry file="DemoTest_selectUserAndRoleByIdSelect - 2018.07.13 at 10h 57m 10s.xml">
+      <configuration name="DemoTest.selectUserAndRoleByIdSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 48m 33s.xml">
-      <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
+    <history-entry file="DemoTest_selectUserAndRoleByIdSelect - 2018.07.13 at 10h 57m 38s.xml">
+      <configuration name="DemoTest.selectUserAndRoleByIdSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 53m 09s.xml">
-      <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
+    <history-entry file="DemoTest_selectUserAndRoleByIdSelect - 2018.07.13 at 10h 57m 47s.xml">
+      <configuration name="DemoTest.selectUserAndRoleByIdSelect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTest_testSelectUserAndRoleById - 2018.07.13 at 08h 53m 46s.xml">
-      <configuration name="DemoTest.testSelectUserAndRoleById" configurationId="JUnit" />
+    <history-entry file="DemoTest_selectUserAndRoleByIdSelect - 2018.07.13 at 11h 00m 47s.xml">
+      <configuration name="DemoTest.selectUserAndRoleByIdSelect" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57509000" />
+    <option name="totallyTimeSpent" value="61182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -485,12 +575,12 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25599128" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25599128" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -704,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -803,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/com/hzbl360/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -866,16 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/model/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -888,8 +954,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/main/DemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="212" selection-start-line="212" selection-end-line="212" />
+        <state relative-caret-position="327">
+          <caret line="219" column="25" selection-start-line="219" selection-start-column="25" selection-end-line="219" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -898,8 +974,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/com/hzbl360/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="336">
+          <caret line="52" column="88" lean-forward="true" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/hzbl360/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/com/hzbl360/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>

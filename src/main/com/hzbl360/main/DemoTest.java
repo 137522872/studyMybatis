@@ -214,4 +214,18 @@ public class DemoTest {
             System.out.println(sysUser);
         }
     }
+
+
+    @Test
+    public void selectUserAndRoleByIdSelect(){
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper mapper = sqlSession.getMapper(UserMapper.class);
+
+
+        List<SysUser> sysUsers = mapper.selectUserAndRoleByIdSelect(1L);
+
+        for(SysUser sysUser:sysUsers){
+            System.out.println(sysUser);
+        }
+    }
 }
